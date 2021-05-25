@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://52.66.102.198:8179/</sonar.host.url>
+		<sonar.host.url>http://13.232.90.152:8179/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
 		<sonar.password>ssr</sonar.password>  
               
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ssr-release</name>
-	      <url>http://13.232.243.163:8179/repository/webapps-release/</url>
+	      <url>http://13.233.103.117:8179/repository/webapps-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ssr-snapshot </name>
-	      <url>http://13.232.243.163:8179/repository/webapps-snapshot/</url>
+	      <url>http://13.233.103.117:8179/repository/webapps-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
